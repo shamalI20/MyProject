@@ -12,6 +12,21 @@ public class Example3 {
 		Scanner input = new Scanner(System.in);
 		System.out.println("Enter a number vaule");
 		int userInput = input.nextInt();
+		byte b = (byte) userInput;
+		short s = (short) userInput;
+		int i = userInput;
+		long l = userInput;
+		double d = userInput;
+		float f = userInput;
+		
+		System.out.println("User input to bytecode is : "+ b);
+		System.out.println("User input to short is : "+ s);
+		System.out.println("User input to Integer is : "+ i);
+		System.out.println("User input to Long  is : "+ l);
+		System.out.println("User input to double is : "+ d);
+		System.out.println("User input to float is : "+ f);
+		
+		
 		
 		
 		
